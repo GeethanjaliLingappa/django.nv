@@ -49,7 +49,7 @@ jobs:
 
   deployment:
     runs-on: ubuntu-latest
-    needs: [component-analysis, frontend-statis-scan]
+    needs: [component-analysis, frontend-static-scan]
     steps: 
       - name: Deployment Steps
         run: |
